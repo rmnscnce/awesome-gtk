@@ -2,7 +2,10 @@
 
 # awesome-gtk
 
-This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B) (3 and 4) applications.
+This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B) (4 and 3) applications.
+
+You can find the most up-to-date info on the most well-supported GNOME apps at [Apps for GNOME](https://apps.gnome.org/);
+this list aims to be broader and include apps from various other ecosystems in various states of maintenance.
 
 ## Applications
 
@@ -20,7 +23,7 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 
 - [Spot](https://github.com/xou816/spot) Spotify client #rust #libhandy
 
-#### MPD Clients
+##### MPD Clients
 
 - [Sonata](https://github.com/multani/sonata) #python
 
@@ -35,8 +38,7 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 
 #### Radio
 
-- [Shortwave](https://gitlab.gnome.org/World/Shortwave) upcoming successor to Gradio #rust #libhandy
-- [Gradio](https://github.com/haecker-felix/Gradio) #vala
+- [Shortwave](https://gitlab.gnome.org/World/Shortwave) #rust #libadwaita
 - [Goodvibes](https://github.com/elboulangero/goodvibes) #c
 - [radiotray-lite](https://github.com/thekvs/radiotray-lite) #c++
 - [Pithos](https://pithos.github.io/) for Pandora #python
@@ -91,6 +93,7 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 ### Video Editors
 
 - [Pitivi](http://www.pitivi.org/) #python
+- [Video Trimmer](https://gitlab.gnome.org/YaLTeR/video-trimmer) #rust #libadwaita
 
 ### Video Downloaders (youtube-dl)
 
@@ -116,6 +119,7 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 #### Specialized Web Browsers / Wrappers
 
 - [hackup](https://github.com/mdh34/hackup) Hacker News client #vala #granite
+- [Wike](https://hugolabe.github.io/Wike) Wikipedia client #python
 
 ### Social Media Clients
 
@@ -141,6 +145,7 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 - [Notejot](https://github.com/lainsce/notejot) sticky notes #vala #granite
 - [Notes-up](https://github.com/Philip-Scott/Notes-up) #vala #granite
 - [Xournal++](https://github.com/xournalpp/xournalpp) handwriting notebook (with tablet pressure) #c++
+- [Rnote](https://github.com/flxzt/rnote) handwriting notebook (with tablet pressure) #rust #libadwaita
 - [Notekit](https://github.com/blackhole89/notekit/) hierarchical markdown notetaking application with tablet support #c++
 - [Zim](https://github.com/zim-desktop-wiki/zim-desktop-wiki) desktop wiki editor #python
 
@@ -189,11 +194,6 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 
 - [Fractal](https://gitlab.gnome.org/GNOME/fractal) #rust #libhandy
 
-#### Tox
-
-- [Venom](https://github.com/naxuroqa/Venom) #vala
-- [Konv](https://github.com/SkyzohKey/Konv) #vala
-
 #### Jabber/XMPP
 
 - [Dino](https://dino.im/) #vala
@@ -206,7 +206,13 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 
 #### Discord
 
-- [gtkcord3](https://github.com/diamondburned/gtkcord3) #go #libhandy
+- [gtkcord3](https://github.com/diamondburned/gtkcord3) #go #libadwaita
+- [Discover](https://github.com/trigg/Discover) Discord overlay #python
+- [Mirdorph](https://gitlab.gnome.org/ranchester/mirdorph) #python
+
+#### Telegram
+
+- [Telegrand](https://github.com/melix99/telegrand) #rust #libadwaita
 
 #### Telegram
 
@@ -247,6 +253,7 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 
 - [Polo](https://github.com/teejee2008/polo) multi-pane & tab file manager #vala
 - [Organizer](https://gitlab.gnome.org/aviwad/organizer) #python
+- [Portofolio](https://github.com/tchx84/Portfolio) file manager for mobile devices #libhandy 
 
 ### Backup
 
@@ -273,6 +280,11 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 
 - [gImageView](https://github.com/manisandro/gImageReader) UI for tesseract #c++
 
+#### Document Viewers
+
+- [Xreader](https://github.com/linuxmint/xreader) PDF, Postscript, Linux Mint #c #xapps
+- [Evince](https://gitlab.gnome.org/GNOME/evince) PDF, Postricpt #c #gnome
+
 #### PDF Tools
 
 - [PDF Arranger](https://github.com/pdfarranger/pdfarranger) #python
@@ -296,6 +308,8 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 - [Coin](https://github.com/lainsce/coin) #vala #granite
 - [Crypto](https://github.com/ErikWallstrom/Crypto) #c
 
+*Warning: cryptocurrency is [bad](https://www.reddit.com/r/Buttcoin/)*
+
 ### Graphics
 
 #### 3D
@@ -309,6 +323,7 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 ##### Font
 
 - [Birdfont](https://github.com/johanmattssonm/birdfont) #vala
+- [Font Downloader](https://github.com/GustavoPeredo/font-downloader) #python #libhandy
 
 ##### CAD/EDA
 
@@ -323,9 +338,9 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 
 - [Drawing](https://github.com/maoschanz/drawing) simple like mspaint #python
 - [GIMP](https://www.gimp.org/) (GTK3 in git: [master](https://gitlab.gnome.org/GNOME/gimp)) #c
-- [MyPaint](http://mypaint.org/) (GTK3 in git: [master](https://github.com/mypaint/mypaint)) #python
+- [MyPaint](http://mypaint.org/) #python
 - [Effector](https://github.com/grindhold/effector) GEGL filter app with a flow graph UI #vala
-- [Obfuscate](https://gitlab.gnome.org/World/obfuscate) simple redacting/censoring/blurring #rust
+- [Obfuscate](https://gitlab.gnome.org/World/obfuscate) simple redacting/censoring/blurring #rust #libadwaita
 - [Swappy](https://github.com/jtheoof/swappy) quick screenshot editing for wlroots based compositors #c
 
 ##### Photo (non-destructive editing)
@@ -353,8 +368,10 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 ### Terminals
 
 - [Galacritty](https://github.com/myfreeweb/galacritty) (shameless plug :D) GTK version of [Alacritty](https://github.com/jwilm/alacritty) (not really maintained for now sorry) #rust
-- [Guake](https://github.com/Guake/guake) dropdown terminal #vte #python
-- [Tilix](https://github.com/gnunn1/tilix) tiling and dropdown terminal #vte #d
+- [Guake](https://github.com/Guake/guake) dropdown terminal #python #vte
+- [Tilix](https://github.com/gnunn1/tilix) tiling and dropdown terminal #d #vte
+- [GNOME Console](https://gitlab.gnome.org/GNOME/console) #c #vte #gnome
+- [GNOME Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal) #c #vte #gnome
 
 ### Code
 
@@ -362,6 +379,7 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 
 - [gnvim](https://github.com/vhakulinen/gnvim) #rust
 - [neovim-gtk](https://github.com/daa84/neovim-gtk) #rust
+  - [maintained fork](https://github.com/Lyude/neovim-gtk)
 - [nvim-pygtk3](https://github.com/rliang/nvim-pygtk3) #python
 
 #### Xi GUIs
@@ -390,6 +408,7 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 ### UI Design
 
 - [Glade](https://glade.gnome.org/) #c #gnome
+- [Cambalache](https://gitlab.gnome.org/jpu/cambalache) Glade's successor #python
 
 ### Version Control and Diffs
 
@@ -407,9 +426,9 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 
 - [Marker](https://github.com/fabiocolacio/Marker) #c
 - [Showdown](https://github.com/craigbarnes/showdown) #vala
-- [Apostrophe](https://gitlab.gnome.org/somas/apostrophe) #python
+- [Apostrophe](https://gitlab.gnome.org/World/apostrophe) #python #libhandy
 - [markdown-rs](https://github.com/nilgradisnik/markdown-rs) #rust
-- [Quilter](https://github.com/lainsce/quilter) #vala #granite
+- [Quilter](https://github.com/lainsce/quilter) #vala #libhandy
 
 ### LaTeX
 
@@ -436,8 +455,8 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 
 ### Remote Desktop
 
+- [Connections](https://gitlab.gnome.org/GNOME/connections) RDP, VNC #vala #gnome
 - [Remmina](https://github.com/FreeRDP/Remmina) RDP, VNC, etc (plugin system) #c
-- [Remotely](https://github.com/haecker-felix/Remotely) VNC #vala
 - [Vinagre](https://wiki.gnome.org/Apps/Vinagre) RDP, VNC, SPICE #c #gnome
 
 ### Database Clients
@@ -466,7 +485,6 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 
 #### Password Management
 
-- [Valawarden](https://github.com/LiljebergXYZ/valawarden) Bitwarden client #vala #granite
 - [PasswordSafe](https://gitlab.gnome.org/World/PasswordSafe) KeePass v4 format based #python #libhandy
 - [Passbook](https://gitlab.gnome.org/gnumdk/passbook) #python
 - [Gonepass](https://github.com/jbreams/gonepass) 1Password vault *viewer* #c++
@@ -478,7 +496,7 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 
 ### System and File Cleaning
 
-- [BleachBit](https://www.bleachbit.org/) (GTK3 in git: [modernization](https://github.com/bleachbit/bleachbit/tree/modernization)) #python
+- [BleachBit](https://www.bleachbit.org/) #python
 - [Czkawka](https://github.com/qarmin/czkawka) #rust
 
 ### System Monitoring and Info
@@ -486,6 +504,7 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 - [GNOME Usage](https://wiki.gnome.org/Apps/Usage) #vala #gnome
 - [CPU-X](https://x0rg.github.io/CPU-X/) similar to CPU-Z #c
 - [sysctlview](https://gitlab.com/alfix/sysctlview) FreeBSD sysctl MIB tree explorer #c++
+- [GreenWithEnvy](https://gitlab.com/leinardi/gwe) NVIDIA card monitoring and fan/OC controlling #python
 
 ### Network Monitoring / Traffic Analysis
 
@@ -499,6 +518,7 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 
 - [pulse-flow](https://github.com/benwaffle/pulse-flow) PulseAudio config tool with a flow graph UI #vala
 - [doppler](https://github.com/spacekookie/doppler) Redshift (f.lux / night light style screen color filter thingy) UI #rust
+- [Flatseal](https://github.com/tchx84/Flatseal) Flatpak permission manager #gjs
 
 ### Installation
 
@@ -515,13 +535,14 @@ This is a list of native, open source [GTK](https://en.wikipedia.org/wiki/GTK%2B
 
 - [Meteo](https://gitlab.com/bitseater/meteo) #vala
 - [bitseater/Weather](https://github.com/bitseater/weather) #vala
-- [GNOME Weather](https://wiki.gnome.org/Apps/Weather) #gjs
+- [GNOME Weather](https://wiki.gnome.org/Apps/Weather) #gjs #gnome
 - [Nimbus](https://github.com/danrabbit/nimbus) #vala
 
 ### Productivity
 
 - [Workspaces](https://github.com/DevAlien/workspaces) #vala #granite
+- [Random](https://codeberg.org/foreverxml/random) #vala #libadwaita
 
 ### Health & Fitness
 
-- [Health](https://gitlab.gnome.org/Cogitri/Health) currently supports Google Fit #rust #libadwaita
+- [Health](https://gitlab.gnome.org/World/Health) currently supports Google Fit #rust #libadwaita
