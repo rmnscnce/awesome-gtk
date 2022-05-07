@@ -69,9 +69,11 @@ this list aims to be broader and include apps from various other ecosystems in v
 
 - [Identity](https://gitlab.gnome.org/YaLTeR/identity) #rust #libadwaita
 
-#### Live Stream Viewers
+#### Streaming Service Clients
 
-- [GNOME Twitch](https://gnome-twitch.vinszent.com) #c
+- [GNOME Twitch](https://gnome-twitch.vinszent.com) for Twitch #c
+- [Twitz](https://github.com/mirkobrombin/Twitz) for Twitch #python
+- [Replay](https://github.com/nahuelwexd/Replay) for YouTube #vala #libadwaita
 
 #### Table of Contents Editors
 
@@ -125,6 +127,22 @@ this list aims to be broader and include apps from various other ecosystems in v
 
 - [hackup](https://github.com/mdh34/hackup) Hacker News client #vala #granite
 - [Wike](https://hugolabe.github.io/Wike) Wikipedia client #python
+
+### Gaming
+
+#### Games
+
+- [Warble](https://github.com/avojak/warble) "Wordle"-like guessing game #vala #granite
+
+#### Game Managers
+
+- [Lutris](https://github.com/lutris/lutris) #python
+
+### Emulation
+
+#### WINE
+
+- [Bottles](https://github.com/bottlesdevs/Bottles) #python
 
 ### Social Media Clients
 
@@ -236,6 +254,7 @@ this list aims to be broader and include apps from various other ecosystems in v
 
 - [Transporter](https://github.com/bleakgrey/Transporter) based on [magic-wormhole](https://github.com/warner/magic-wormhole) #vala #granite
 - [Teleport](https://gitlab.gnome.org/jsparber/teleport) based on Avahi (mDNS) #c
+- [Warp](https://gitlab.gnome.org/felinira/warp/) based on [magic-wormhole](https://github.com/warner/magic-wormhole) #rust #libadwaita
 
 #### BitTorrent Clients
 
@@ -540,6 +559,7 @@ this list aims to be broader and include apps from various other ecosystems in v
 
 - [Parceldude](https://notabug.org/grindhold/parceldude) batch installer for Windows MSI packages #vala
 - [Turtle](https://tenderowl.com/work/turtle) `.deskop` files creation tool #python #granite 
+- [MenuLibre](https://github.com/bluesabre/menulibre) complete `.desktop` files editor #python
 
 ### News/Feed Readers
 
